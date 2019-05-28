@@ -8,7 +8,6 @@
     aws_ssh_key_id: DevOpsStudentsEng2932
     associate_public_ip: true
 
-
   verifier:
     name: inspec
 
