@@ -25,9 +25,9 @@ platforms:
 suites:
   name: default
     run_list:
-      - recipe[node::default]
+      recipe[node::default]
     verifier:
       inspec_tests:
-        - test/integration/default
+        test/integration/default
       chef_license: accept-no-persist
     attributes:
