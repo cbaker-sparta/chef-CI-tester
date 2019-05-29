@@ -1,8 +1,0 @@
-# frozen_string_literal: true
-source 'https://supermarket.chef.io'
-
-cookbook 'node', git: 'git@github.com:cbaker-sparta/chef-CI-tester.git'
-
-cookbook 'mongodb3', git: 'git@github.com:sunggun-yu/chef-mongodb3.git'
-
-metadata
