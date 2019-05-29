@@ -1,5 +1,459 @@
-I, [2019-05-28T16:11:05.263893 #21679]  INFO -- default-ubuntu-1604: -----> Cleaning up any prior instances of <default-ubuntu-1604>
-I, [2019-05-28T16:11:05.264636 #21679]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
-I, [2019-05-28T16:11:05.266339 #21679]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m0.00s).
-I, [2019-05-28T16:11:05.270945 #21679]  INFO -- default-ubuntu-1604: -----> Testing <default-ubuntu-1604>
-I, [2019-05-28T16:11:05.271179 #21679]  INFO -- default-ubuntu-1604: -----> Creating <default-ubuntu-1604>...
+I, [2019-05-29T09:59:20.894279 #24475]  INFO -- default-ubuntu-1604: -----> Cleaning up any prior instances of <default-ubuntu-1604>
+I, [2019-05-29T09:59:20.897164 #24475]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
+I, [2019-05-29T09:59:20.898909 #24475]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m0.00s).
+I, [2019-05-29T09:59:20.900910 #24475]  INFO -- default-ubuntu-1604: -----> Testing <default-ubuntu-1604>
+I, [2019-05-29T09:59:20.901119 #24475]  INFO -- default-ubuntu-1604: -----> Creating <default-ubuntu-1604>...
+I, [2019-05-29T09:59:26.320362 #24475]  INFO -- default-ubuntu-1604: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2019-05-29T09:59:27.033440 #24475]  INFO -- default-ubuntu-1604: ==> default: Checking if box 'ubuntu/xenial64' version '20190511.0.0' is up to date...
+I, [2019-05-29T09:59:28.284811 #24475]  INFO -- default-ubuntu-1604: ==> default: A newer version of the box 'ubuntu/xenial64' for provider 'virtualbox' is
+I, [2019-05-29T09:59:28.284892 #24475]  INFO -- default-ubuntu-1604: ==> default: available! You currently have version '20190511.0.0'. The latest is version
+I, [2019-05-29T09:59:28.284923 #24475]  INFO -- default-ubuntu-1604: ==> default: '20190521.0.0'. Run `vagrant box update` to update.
+I, [2019-05-29T09:59:28.986268 #24475]  INFO -- default-ubuntu-1604: ==> default: [vagrant-hostsupdater] Checking for host entries
+I, [2019-05-29T09:59:28.987069 #24475]  INFO -- default-ubuntu-1604: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2019-05-29T09:59:32.457552 #24475]  INFO -- default-ubuntu-1604: [SSH] Established
+I, [2019-05-29T09:59:32.472505 #24475]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> created.
+I, [2019-05-29T09:59:32.473907 #24475]  INFO -- default-ubuntu-1604: Finished creating <default-ubuntu-1604> (0m11.57s).
+I, [2019-05-29T09:59:32.474183 #24475]  INFO -- default-ubuntu-1604: -----> Converging <default-ubuntu-1604>...
+I, [2019-05-29T09:59:32.476498 #24475]  INFO -- default-ubuntu-1604: Preparing files for transfer
+I, [2019-05-29T09:59:32.476835 #24475]  INFO -- default-ubuntu-1604: Preparing dna.json
+I, [2019-05-29T09:59:32.477493 #24475]  INFO -- default-ubuntu-1604: Resolving cookbook dependencies with Berkshelf 7.0.8...
+I, [2019-05-29T09:59:39.244134 #24475]  INFO -- default-ubuntu-1604: Removing non-cookbook files before transfer
+I, [2019-05-29T09:59:39.274724 #24475]  INFO -- default-ubuntu-1604: Preparing validation.pem
+I, [2019-05-29T09:59:39.277903 #24475]  INFO -- default-ubuntu-1604: Preparing client.rb
+I, [2019-05-29T09:59:39.460637 #24475]  INFO -- default-ubuntu-1604: ubuntu 16.04 x86_64
+I, [2019-05-29T09:59:39.461271 #24475]  INFO -- default-ubuntu-1604: Getting information for chef stable 14.10.9 for ubuntu...
+I, [2019-05-29T09:59:39.461404 #24475]  INFO -- default-ubuntu-1604: downloading https://omnitruck.chef.io/stable/chef/metadata?v=14.10.9&p=ubuntu&pv=16.04&m=x86_64
+I, [2019-05-29T09:59:39.461463 #24475]  INFO -- default-ubuntu-1604:   to file /tmp/install.sh.1430/metadata.txt
+I, [2019-05-29T09:59:39.462228 #24475]  INFO -- default-ubuntu-1604: trying wget...
+I, [2019-05-29T09:59:39.541024 #24475]  INFO -- default-ubuntu-1604: sha1	cf19d6a3c21bef28160a9b6896381c6e160fb640
+I, [2019-05-29T09:59:39.542160 #24475]  INFO -- default-ubuntu-1604: sha256	c41299e167acb143b2328a63a774c3b85cd939d3ee40bc4aedf9f62252fe4ab9
+I, [2019-05-29T09:59:39.543720 #24475]  INFO -- default-ubuntu-1604: url	https://packages.chef.io/files/stable/chef/14.10.9/ubuntu/16.04/chef_14.10.9-1_amd64.deb
+I, [2019-05-29T09:59:39.545316 #24475]  INFO -- default-ubuntu-1604: version	14.10.9
+I, [2019-05-29T09:59:39.548038 #24475]  INFO -- default-ubuntu-1604: downloaded metadata file looks valid...
+I, [2019-05-29T09:59:39.565676 #24475]  INFO -- default-ubuntu-1604: downloading https://packages.chef.io/files/stable/chef/14.10.9/ubuntu/16.04/chef_14.10.9-1_amd64.deb
+I, [2019-05-29T09:59:39.565760 #24475]  INFO -- default-ubuntu-1604:   to file /tmp/install.sh.1430/chef_14.10.9-1_amd64.deb
+I, [2019-05-29T09:59:39.566775 #24475]  INFO -- default-ubuntu-1604: trying wget...
+I, [2019-05-29T09:59:42.294296 #24475]  INFO -- default-ubuntu-1604: Comparing checksum with sha256sum...
+I, [2019-05-29T09:59:42.486275 #24475]  INFO -- default-ubuntu-1604: Installing chef 14.10.9
+I, [2019-05-29T09:59:42.486680 #24475]  INFO -- default-ubuntu-1604: installing with dpkg...
+I, [2019-05-29T09:59:42.578386 #24475]  INFO -- default-ubuntu-1604: Selecting previously unselected package chef.
+I, [2019-05-29T09:59:44.121939 #24475]  INFO -- default-ubuntu-1604: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54225 files and directories currently installed.)
+I, [2019-05-29T09:59:44.124804 #24475]  INFO -- default-ubuntu-1604: Preparing to unpack .../chef_14.10.9-1_amd64.deb ...
+I, [2019-05-29T09:59:44.129937 #24475]  INFO -- default-ubuntu-1604: Unpacking chef (14.10.9-1) ...
+I, [2019-05-29T09:59:50.789058 #24475]  INFO -- default-ubuntu-1604: Setting up chef (14.10.9-1) ...
+I, [2019-05-29T09:59:50.910559 #24475]  INFO -- default-ubuntu-1604: Thank you for installing Chef!
+I, [2019-05-29T09:59:50.967575 #24475]  INFO -- default-ubuntu-1604: Transferring files to <default-ubuntu-1604>
+I, [2019-05-29T09:59:53.788271 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:53+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /tmp/kitchen, /tmp/kitchen
+I, [2019-05-29T09:59:53.789041 #24475]  INFO -- default-ubuntu-1604:   One version per cookbook
+I, [2019-05-29T09:59:53.789762 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T09:59:53.796720 #24475]  INFO -- default-ubuntu-1604: Starting Chef Client, version 14.10.9
+I, [2019-05-29T09:59:53.798280 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:53+00:00] INFO: *** Chef 14.10.9 ***
+I, [2019-05-29T09:59:53.802324 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:53+00:00] INFO: Platform: x86_64-linux
+I, [2019-05-29T09:59:53.803590 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:53+00:00] INFO: Chef-client pid: 1511
+I, [2019-05-29T09:59:53.805264 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:53+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+I, [2019-05-29T09:59:56.599648 #24475]  INFO -- default-ubuntu-1604: Creating a new client identity for default-ubuntu-1604 using the validator key.
+I, [2019-05-29T09:59:56.599994 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Client key /tmp/kitchen/client.pem is not present - registering
+I, [2019-05-29T09:59:56.676038 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Setting the run_list to ["recipe[node::default]"] from CLI options
+I, [2019-05-29T09:59:56.684314 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Run List is [recipe[node::default]]
+I, [2019-05-29T09:59:56.684395 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Run List expands to [node::default]
+I, [2019-05-29T09:59:56.684428 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Starting Chef Run for default-ubuntu-1604
+I, [2019-05-29T09:59:56.684456 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Running start handlers
+I, [2019-05-29T09:59:56.684680 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Start handlers complete.
+I, [2019-05-29T09:59:56.687014 #24475]  INFO -- default-ubuntu-1604: resolving cookbooks for run list: ["node::default"]
+I, [2019-05-29T09:59:56.889740 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Loading cookbooks [node@0.1.0, nodejs@5.0.0, build-essential@8.2.1, ark@4.0.0, seven_zip@3.1.1, mingw@2.1.0, windows@6.0.0]
+I, [2019-05-29T09:59:56.897240 #24475]  INFO -- default-ubuntu-1604: Synchronizing Cookbooks:
+I, [2019-05-29T09:59:56.908482 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/node/attributes/node.rb in the cache.
+I, [2019-05-29T09:59:56.909138 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/node/metadata.json in the cache.
+I, [2019-05-29T09:59:56.910225 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/node/recipes/default.rb in the cache.
+I, [2019-05-29T09:59:56.910670 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/node/templates/proxy.conf.erb in the cache.
+I, [2019-05-29T09:59:56.922083 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/node/files/default/.kitchen.cloud2.yml in the cache.
+I, [2019-05-29T09:59:56.922833 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/node/metadata.rb in the cache.
+I, [2019-05-29T09:59:56.923500 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/attributes/default.rb in the cache.
+I, [2019-05-29T09:59:56.924022 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/attributes/npm.rb in the cache.
+I, [2019-05-29T09:59:56.924747 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/node/attributes/default.rb in the cache.
+I, [2019-05-29T09:59:56.926633 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/attributes/packages.rb in the cache.
+I, [2019-05-29T09:59:56.937073 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/attributes/repo.rb in the cache.
+I, [2019-05-29T09:59:56.943549 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/metadata.json in the cache.
+I, [2019-05-29T09:59:56.948622 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/recipes/install.rb in the cache.
+I, [2019-05-29T09:59:56.953779 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/recipes/nodejs_from_source.rb in the cache.
+I, [2019-05-29T09:59:56.962586 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/recipes/npm_from_source.rb in the cache.
+I, [2019-05-29T09:59:56.966167 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/recipes/npm.rb in the cache.
+I, [2019-05-29T09:59:56.966712 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/recipes/default.rb in the cache.
+I, [2019-05-29T09:59:56.967933 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/node/README.md in the cache.
+I, [2019-05-29T09:59:56.968212 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/libraries/nodejs_helper.rb in the cache.
+I, [2019-05-29T09:59:56.973530 #24475]  INFO -- default-ubuntu-1604:   [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/recipes/iojs.rb in the cache.
+I, [2019-05-29T09:59:56.973931 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/recipes/nodejs_from_package.rb in the cache.
+I, [2019-05-29T09:59:56.974298 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/recipes/nodejs_from_binary.rb in the cache.
+I, [2019-05-29T09:59:56.976361 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/recipes/nodejs.rb in the cache.
+I, [2019-05-29T09:59:56.976792 #24475]  INFO -- default-ubuntu-1604: - node (0.1.0)
+I, [2019-05-29T09:59:56.980475 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/resources/npm_package.rb in the cache.
+I, [2019-05-29T09:59:56.980939 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/recipes/npm_packages.rb in the cache.
+I, [2019-05-29T09:59:56.989086 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/build-essential/metadata.json in the cache.
+I, [2019-05-29T09:59:56.989890 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/build-essential/recipes/_windows.rb in the cache.
+I, [2019-05-29T09:59:56.992748 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/recipes/repo.rb in the cache.
+I, [2019-05-29T09:59:56.996988 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/build-essential/attributes/default.rb in the cache.
+I, [2019-05-29T09:59:56.999397 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/build-essential/recipes/default.rb in the cache.
+I, [2019-05-29T09:59:57.004420 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/build-essential/resources/build_essential.rb in the cache.
+I, [2019-05-29T09:59:57.008218 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/build-essential/resources/xcode_command_line_tools.rb in the cache.
+I, [2019-05-29T09:59:57.016762 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/ark/metadata.json in the cache.
+I, [2019-05-29T09:59:57.021999 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/ark/libraries/default.rb in the cache.
+I, [2019-05-29T09:59:57.023557 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/nodejs/README.md in the cache.
+I, [2019-05-29T09:59:57.030042 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/ark/libraries/general_owner.rb in the cache.
+I, [2019-05-29T09:59:57.037434 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/ark/libraries/resource_deprecations.rb in the cache.
+I, [2019-05-29T09:59:57.041647 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/ark/recipes/default.rb in the cache.
+I, [2019-05-29T09:59:57.046526 #24475]  INFO -- default-ubuntu-1604:   - nodejs (5.0.0)
+I, [2019-05-29T09:59:57.048939 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/ark/libraries/windows_owner.rb in the cache.
+I, [2019-05-29T09:59:57.051301 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/build-essential/README.md in the cache.
+I, [2019-05-29T09:59:57.052587 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/ark/libraries/tar_command_builder.rb in the cache.
+I, [2019-05-29T09:59:57.053814 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/ark/libraries/platform_specific_builders.rb in the cache.
+I, [2019-05-29T09:59:57.061694 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/ark/attributes/default.rb in the cache.
+I, [2019-05-29T09:59:57.062142 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/ark/README.md in the cache.
+I, [2019-05-29T09:59:57.067881 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/ark/libraries/sevenzip_command_builder.rb in the cache.
+I, [2019-05-29T09:59:57.069208 #24475]  INFO -- default-ubuntu-1604:   [2019-05-29T08:59:56+00:00] INFO: Storing updated cookbooks/ark/files/default/foo.tar.gz in the cache.
+I, [2019-05-29T09:59:57.075155 #24475]  INFO -- default-ubuntu-1604: - build-essential (8.2.1)
+I, [2019-05-29T09:59:57.079344 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/ark/files/default/foo.tgz in the cache.
+I, [2019-05-29T09:59:57.085933 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/ark/files/default/foo.zip in the cache.
+I, [2019-05-29T09:59:57.093299 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/ark/libraries/resource_defaults.rb in the cache.
+I, [2019-05-29T09:59:57.096660 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/ark/files/default/foo_sub.zip in the cache.
+I, [2019-05-29T09:59:57.101144 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/ark/files/default/foo.txz in the cache.
+I, [2019-05-29T09:59:57.101244 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/ark/files/default/foo.tbz in the cache.
+I, [2019-05-29T09:59:57.105057 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/ark/libraries/unzip_command_builder.rb in the cache.
+I, [2019-05-29T09:59:57.110025 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/seven_zip/metadata.json in the cache.
+I, [2019-05-29T09:59:57.114384 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/ark/files/default/foo_sub.tar.gz in the cache.
+I, [2019-05-29T09:59:57.117271 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/seven_zip/libraries/matchers.rb in the cache.
+I, [2019-05-29T09:59:57.118904 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/seven_zip/providers/archive.rb in the cache.
+I, [2019-05-29T09:59:57.119371 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/ark/templates/add_to_path.sh.erb in the cache.
+I, [2019-05-29T09:59:57.125608 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/seven_zip/resources/archive.rb in the cache.
+I, [2019-05-29T09:59:57.126232 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/seven_zip/resources/tool.rb in the cache.
+I, [2019-05-29T09:59:57.131110 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/ark/resources/default.rb in the cache.
+I, [2019-05-29T09:59:57.135591 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/attributes/default.rb in the cache.
+I, [2019-05-29T09:59:57.136016 #24475]  INFO -- default-ubuntu-1604:   - ark (4.0.0)
+I, [2019-05-29T09:59:57.139022 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/seven_zip/recipes/default.rb in the cache.
+I, [2019-05-29T09:59:57.151245 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/resources/msys2_package.rb in the cache.
+I, [2019-05-29T09:59:57.153010 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/resources/get.rb in the cache.
+I, [2019-05-29T09:59:57.153524 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/seven_zip/README.md in the cache.
+I, [2019-05-29T09:59:57.160532 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/metadata.json in the cache.
+I, [2019-05-29T09:59:57.163865 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/resources/tdm_gcc.rb in the cache.
+I, [2019-05-29T09:59:57.167421 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/libraries/_helper.rb in the cache.
+I, [2019-05-29T09:59:57.168249 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/files/default/custom-upgrade.sh in the cache.
+I, [2019-05-29T09:59:57.172979 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/seven_zip/metadata.rb in the cache.
+I, [2019-05-29T09:59:57.173540 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/files/default/custom_prefix.sh in the cache.
+I, [2019-05-29T09:59:57.176770 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/seven_zip/attributes/default.rb in the cache.
+I, [2019-05-29T09:59:57.181491 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/files/default/time.h in the cache.
+I, [2019-05-29T09:59:57.184679 #24475]  INFO -- default-ubuntu-1604:   [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/recipes/default.rb in the cache.
+I, [2019-05-29T09:59:57.186403 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/recipes/default.rb in the cache.
+I, [2019-05-29T09:59:57.188366 #24475]  INFO -- default-ubuntu-1604: - seven_zip (3.1.1)[2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/files/default/bash.bat in the cache.
+I, [2019-05-29T09:59:57.192032 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T09:59:57.194380 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/files/default/pthread.h in the cache.
+I, [2019-05-29T09:59:57.197053 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/libraries/powershell_helper.rb in the cache.
+I, [2019-05-29T09:59:57.200909 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/libraries/windows_helper.rb in the cache.
+I, [2019-05-29T09:59:57.210944 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/libraries/version_helper.rb in the cache.
+I, [2019-05-29T09:59:57.211021 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/mingw/README.md in the cache.
+I, [2019-05-29T09:59:57.211049 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/libraries/version.rb in the cache.
+I, [2019-05-29T09:59:57.222612 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/metadata.json in the cache.
+I, [2019-05-29T09:59:57.222734 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/providers/dns.rb in the cache.
+I, [2019-05-29T09:59:57.224407 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/resources/certificate_binding.rb in the cache.
+I, [2019-05-29T09:59:57.225573 #24475]  INFO -- default-ubuntu-1604:   - mingw (2.1.0)
+I, [2019-05-29T09:59:57.228467 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/resources/share.rb in the cache.
+I, [2019-05-29T09:59:57.238165 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/libraries/wmi_helper.rb in the cache.
+I, [2019-05-29T09:59:57.238240 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/resources/zipfile.rb in the cache.
+I, [2019-05-29T09:59:57.245233 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/resources/dns.rb in the cache.
+I, [2019-05-29T09:59:57.245629 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/resources/user_privilege.rb in the cache.
+I, [2019-05-29T09:59:57.247408 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/libraries/windows_privileged.rb in the cache.
+I, [2019-05-29T09:59:57.251626 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/resources/http_acl.rb in the cache.
+I, [2019-05-29T09:59:57.251721 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/resources/certificate.rb in the cache.
+I, [2019-05-29T09:59:57.252743 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/metadata.rb in the cache.
+I, [2019-05-29T09:59:57.254631 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/README.md in the cache.
+I, [2019-05-29T09:59:57.255784 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T08:59:57+00:00] INFO: Storing updated cookbooks/windows/libraries/registry_helper.rb in the cache.
+I, [2019-05-29T09:59:57.256214 #24475]  INFO -- default-ubuntu-1604:   - windows (6.0.0)
+I, [2019-05-29T09:59:57.257793 #24475]  INFO -- default-ubuntu-1604: Installing Cookbook Gems:
+I, [2019-05-29T09:59:57.286122 #24475]  INFO -- default-ubuntu-1604: Compiling Cookbooks...
+I, [2019-05-29T09:59:57.385955 #24475]  INFO -- default-ubuntu-1604: Converging 10 resources
+I, [2019-05-29T09:59:57.386459 #24475]  INFO -- default-ubuntu-1604: Recipe: node::default
+I, [2019-05-29T09:59:57.387041 #24475]  INFO -- default-ubuntu-1604:   * apt_update[update_sources] action update[2019-05-29T08:59:57+00:00] INFO: Processing apt_update[update_sources] action update (node::default line 7)
+I, [2019-05-29T09:59:57.389568 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T09:59:57.391290 #24475]  INFO -- default-ubuntu-1604:     - force update new lists of packages
+I, [2019-05-29T09:59:57.391802 #24475]  INFO -- default-ubuntu-1604:     * directory[/var/lib/apt/periodic] action create[2019-05-29T08:59:57+00:00] INFO: Processing directory[/var/lib/apt/periodic] action create (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_update.rb line 60)
+I, [2019-05-29T09:59:57.394226 #24475]  INFO -- default-ubuntu-1604:  (up to date)
+I, [2019-05-29T09:59:57.394805 #24475]  INFO -- default-ubuntu-1604:     * directory[/etc/apt/apt.conf.d] action create[2019-05-29T08:59:57+00:00] INFO: Processing directory[/etc/apt/apt.conf.d] action create (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_update.rb line 60)
+I, [2019-05-29T09:59:57.396956 #24475]  INFO -- default-ubuntu-1604:  (up to date)
+I, [2019-05-29T09:59:57.397467 #24475]  INFO -- default-ubuntu-1604:     * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing[2019-05-29T08:59:57+00:00] INFO: Processing file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_update.rb line 65)
+I, [2019-05-29T09:59:57.399233 #24475]  INFO -- default-ubuntu-1604:  (up to date)
+I, [2019-05-29T09:59:57.399768 #24475]  INFO -- default-ubuntu-1604:     * execute[apt-get -q update] action run[2019-05-29T08:59:57+00:00] INFO: Processing execute[apt-get -q update] action run (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_update.rb line 70)
+I, [2019-05-29T09:59:57.599788 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T09:59:57.600271 #24475]  INFO -- default-ubuntu-1604:       [execute] Hit:1 http://archive.ubuntu.com/ubuntu xenial InRelease
+I, [2019-05-29T09:59:57.600371 #24475]  INFO -- default-ubuntu-1604:          Get:2 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+I, [2019-05-29T09:59:57.604323 #24475]  INFO -- default-ubuntu-1604:          Get:3 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+I, [2019-05-29T09:59:57.626083 #24475]  INFO -- default-ubuntu-1604:          Get:4 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+I, [2019-05-29T09:59:57.776249 #24475]  INFO -- default-ubuntu-1604:          Get:5 http://archive.ubuntu.com/ubuntu xenial/universe amd64 Packages [7532 kB]
+I, [2019-05-29T09:59:58.247697 #24475]  INFO -- default-ubuntu-1604:          Get:6 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [647 kB]
+I, [2019-05-29T09:59:58.363168 #24475]  INFO -- default-ubuntu-1604:          Get:7 http://archive.ubuntu.com/ubuntu xenial/universe Translation-en [4354 kB]
+I, [2019-05-29T09:59:58.363268 #24475]  INFO -- default-ubuntu-1604:          Get:8 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [264 kB]
+I, [2019-05-29T09:59:58.414841 #24475]  INFO -- default-ubuntu-1604:          Get:9 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [435 kB]
+I, [2019-05-29T09:59:58.478964 #24475]  INFO -- default-ubuntu-1604:          Get:10 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [176 kB]
+I, [2019-05-29T09:59:58.524399 #24475]  INFO -- default-ubuntu-1604:          Get:11 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [5600 B]
+I, [2019-05-29T09:59:58.525126 #24475]  INFO -- default-ubuntu-1604:          Get:12 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en [2676 B]
+I, [2019-05-29T09:59:58.803794 #24475]  INFO -- default-ubuntu-1604:          Get:13 http://archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages [144 kB]
+I, [2019-05-29T09:59:58.830744 #24475]  INFO -- default-ubuntu-1604:          Get:14 http://archive.ubuntu.com/ubuntu xenial/multiverse Translation-en [106 kB]
+I, [2019-05-29T09:59:58.837157 #24475]  INFO -- default-ubuntu-1604:          Get:15 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [957 kB]
+I, [2019-05-29T09:59:58.922860 #24475]  INFO -- default-ubuntu-1604:          Get:16 http://archive.ubuntu.com/ubuntu xenial-updates/main Translation-en [381 kB]
+I, [2019-05-29T09:59:58.966347 #24475]  INFO -- default-ubuntu-1604:          Get:17 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [749 kB]
+I, [2019-05-29T09:59:59.037707 #24475]  INFO -- default-ubuntu-1604:          Get:18 http://archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [311 kB]
+I, [2019-05-29T09:59:59.072787 #24475]  INFO -- default-ubuntu-1604:          Get:19 http://archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [16.7 kB]
+I, [2019-05-29T09:59:59.094962 #24475]  INFO -- default-ubuntu-1604:          Get:20 http://archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en [8440 B]
+I, [2019-05-29T09:59:59.095094 #24475]  INFO -- default-ubuntu-1604:          Get:21 http://archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [7280 B]
+I, [2019-05-29T09:59:59.095150 #24475]  INFO -- default-ubuntu-1604:          Get:22 http://archive.ubuntu.com/ubuntu xenial-backports/main Translation-en [4456 B]
+I, [2019-05-29T09:59:59.095201 #24475]  INFO -- default-ubuntu-1604:          Get:23 http://archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [7804 B]
+I, [2019-05-29T09:59:59.095309 #24475]  INFO -- default-ubuntu-1604:          Get:24 http://archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en [4184 B]
+I, [2019-05-29T10:00:04.989537 #24475]  INFO -- default-ubuntu-1604:          Fetched 16.4 MB in 4s (3454 kB/s)
+I, [2019-05-29T10:00:06.207473 #24475]  INFO -- default-ubuntu-1604:          Reading package lists...
+I, [2019-05-29T10:00:06.313912 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:06+00:00] INFO: execute[apt-get -q update] ran successfully
+I, [2019-05-29T10:00:06.314453 #24475]  INFO -- default-ubuntu-1604:       - execute ["apt-get", "-q", "update"]
+I, [2019-05-29T10:00:06.315609 #24475]  INFO -- default-ubuntu-1604:   
+I, [2019-05-29T10:00:06.322289 #24475]  INFO -- default-ubuntu-1604:   * apt_package[nginx] action install[2019-05-29T09:00:06+00:00] INFO: Processing apt_package[nginx] action install (node::default line 11)
+I, [2019-05-29T10:00:28.102301 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:28+00:00] INFO: apt_package[nginx] installed nginx at 1.10.3-0ubuntu0.16.04.3
+I, [2019-05-29T10:00:28.102429 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:28.102476 #24475]  INFO -- default-ubuntu-1604:     - install version 1.10.3-0ubuntu0.16.04.3 of package nginx
+I, [2019-05-29T10:00:28.103169 #24475]  INFO -- default-ubuntu-1604:   * service[nginx] action enable[2019-05-29T09:00:28+00:00] INFO: Processing service[nginx] action enable (node::default line 13)
+I, [2019-05-29T10:00:28.210439 #24475]  INFO -- default-ubuntu-1604:  (up to date)
+I, [2019-05-29T10:00:28.211682 #24475]  INFO -- default-ubuntu-1604:   * service[nginx] action start[2019-05-29T09:00:28+00:00] INFO: Processing service[nginx] action start (node::default line 13)
+I, [2019-05-29T10:00:28.308113 #24475]  INFO -- default-ubuntu-1604:  (up to date)
+I, [2019-05-29T10:00:28.308994 #24475]  INFO -- default-ubuntu-1604:   * template[/etc/nginx/sites-available/proxy.conf] action create[2019-05-29T09:00:28+00:00] INFO: Processing template[/etc/nginx/sites-available/proxy.conf] action create (node::default line 18)
+I, [2019-05-29T10:00:28.313826 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:28+00:00] INFO: template[/etc/nginx/sites-available/proxy.conf] created file /etc/nginx/sites-available/proxy.conf
+I, [2019-05-29T10:00:28.313910 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:28.320080 #24475]  INFO -- default-ubuntu-1604:     - create new file /etc/nginx/sites-available/proxy.conf[2019-05-29T09:00:28+00:00] INFO: template[/etc/nginx/sites-available/proxy.conf] updated file contents /etc/nginx/sites-available/proxy.conf
+I, [2019-05-29T10:00:28.321586 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:28.321709 #24475]  INFO -- default-ubuntu-1604:     - update content in file /etc/nginx/sites-available/proxy.conf from none to 970bef
+I, [2019-05-29T10:00:28.321769 #24475]  INFO -- default-ubuntu-1604:     --- /etc/nginx/sites-available/proxy.conf	2019-05-29 09:00:28.233837441 +0000
+I, [2019-05-29T10:00:28.321820 #24475]  INFO -- default-ubuntu-1604:     +++ /etc/nginx/sites-available/.chef-proxy20190529-1511-1tob7bq.conf	2019-05-29 09:00:28.233837441 +0000
+I, [2019-05-29T10:00:28.321865 #24475]  INFO -- default-ubuntu-1604:     @@ -1 +1,99 @@
+I, [2019-05-29T10:00:28.322324 #24475]  INFO -- default-ubuntu-1604:     +##
+I, [2019-05-29T10:00:28.322425 #24475]  INFO -- default-ubuntu-1604:     +# You should look at the following URL's in order to grasp a solid understanding
+I, [2019-05-29T10:00:28.322480 #24475]  INFO -- default-ubuntu-1604:     +# of Nginx configuration files in order to fully unleash the power of Nginx.
+I, [2019-05-29T10:00:28.322528 #24475]  INFO -- default-ubuntu-1604:     +# http://wiki.nginx.org/Pitfalls
+I, [2019-05-29T10:00:28.323080 #24475]  INFO -- default-ubuntu-1604:     +# http://wiki.nginx.org/QuickStart
+I, [2019-05-29T10:00:28.323186 #24475]  INFO -- default-ubuntu-1604:     +# http://wiki.nginx.org/Configuration
+I, [2019-05-29T10:00:28.323242 #24475]  INFO -- default-ubuntu-1604:     +#
+I, [2019-05-29T10:00:28.323290 #24475]  INFO -- default-ubuntu-1604:     +# Generally, you will want to move this file somewhere, and start with a clean
+I, [2019-05-29T10:00:28.323832 #24475]  INFO -- default-ubuntu-1604:     +# file but keep this around for reference. Or just disable in sites-enabled.
+I, [2019-05-29T10:00:28.323933 #24475]  INFO -- default-ubuntu-1604:     +#
+I, [2019-05-29T10:00:28.323988 #24475]  INFO -- default-ubuntu-1604:     +# Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
+I, [2019-05-29T10:00:28.324076 #24475]  INFO -- default-ubuntu-1604:     +##
+I, [2019-05-29T10:00:28.324466 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.324555 #24475]  INFO -- default-ubuntu-1604:     +# Default server configuration
+I, [2019-05-29T10:00:28.324658 #24475]  INFO -- default-ubuntu-1604:     +#
+I, [2019-05-29T10:00:28.324951 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.325485 #24475]  INFO -- default-ubuntu-1604:     +upstream backend {
+I, [2019-05-29T10:00:28.325550 #24475]  INFO -- default-ubuntu-1604:     +	server 127.0.0.1:3000;
+I, [2019-05-29T10:00:28.325963 #24475]  INFO -- default-ubuntu-1604:     +}
+I, [2019-05-29T10:00:28.326048 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.326123 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.326187 #24475]  INFO -- default-ubuntu-1604:     +server {
+I, [2019-05-29T10:00:28.326691 #24475]  INFO -- default-ubuntu-1604:     +	listen 80 default_server;
+I, [2019-05-29T10:00:28.327089 #24475]  INFO -- default-ubuntu-1604:     +	listen [::]:80 default_server;
+I, [2019-05-29T10:00:28.327171 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.327288 #24475]  INFO -- default-ubuntu-1604:     +	# SSL configuration
+I, [2019-05-29T10:00:28.327683 #24475]  INFO -- default-ubuntu-1604:     +	#
+I, [2019-05-29T10:00:28.327763 #24475]  INFO -- default-ubuntu-1604:     +	# listen 443 ssl default_server;
+I, [2019-05-29T10:00:28.328013 #24475]  INFO -- default-ubuntu-1604:     +	# listen [::]:443 ssl default_server;
+I, [2019-05-29T10:00:28.328399 #24475]  INFO -- default-ubuntu-1604:     +	#
+I, [2019-05-29T10:00:28.328652 #24475]  INFO -- default-ubuntu-1604:     +	# Note: You should disable gzip for SSL traffic.
+I, [2019-05-29T10:00:28.328712 #24475]  INFO -- default-ubuntu-1604:     +	# See: https://bugs.debian.org/773332
+I, [2019-05-29T10:00:28.328826 #24475]  INFO -- default-ubuntu-1604:     +	#
+I, [2019-05-29T10:00:28.329823 #24475]  INFO -- default-ubuntu-1604:     +	# Read up on ssl_ciphers to ensure a secure configuration.
+I, [2019-05-29T10:00:28.329954 #24475]  INFO -- default-ubuntu-1604:     +	# See: https://bugs.debian.org/765782
+I, [2019-05-29T10:00:28.330410 #24475]  INFO -- default-ubuntu-1604:     +	#
+I, [2019-05-29T10:00:28.330516 #24475]  INFO -- default-ubuntu-1604:     +	# Self signed certs generated by the ssl-cert package
+I, [2019-05-29T10:00:28.330564 #24475]  INFO -- default-ubuntu-1604:     +	# Don't use them in a production server!
+I, [2019-05-29T10:00:28.330601 #24475]  INFO -- default-ubuntu-1604:     +	#
+I, [2019-05-29T10:00:28.330636 #24475]  INFO -- default-ubuntu-1604:     +	# include snippets/snakeoil.conf;
+I, [2019-05-29T10:00:28.330672 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.331103 #24475]  INFO -- default-ubuntu-1604:     +	root /var/www/html;
+I, [2019-05-29T10:00:28.331162 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.331372 #24475]  INFO -- default-ubuntu-1604:     +	# Add index.php to the list if you are using PHP
+I, [2019-05-29T10:00:28.331411 #24475]  INFO -- default-ubuntu-1604:     +	index index.html index.htm index.nginx-debian.html;
+I, [2019-05-29T10:00:28.331603 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.331659 #24475]  INFO -- default-ubuntu-1604:     +	server_name _;
+I, [2019-05-29T10:00:28.331700 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.331985 #24475]  INFO -- default-ubuntu-1604:     +	proxy_set_header X-Real-IP $remote_addr;
+I, [2019-05-29T10:00:28.332035 #24475]  INFO -- default-ubuntu-1604:     +	proxy_set_header Host $host;
+I, [2019-05-29T10:00:28.332058 #24475]  INFO -- default-ubuntu-1604:     +	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+I, [2019-05-29T10:00:28.332081 #24475]  INFO -- default-ubuntu-1604:     +	proxy_set_header X-Forwarded-Proto $scheme;
+I, [2019-05-29T10:00:28.332113 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.332147 #24475]  INFO -- default-ubuntu-1604:     +	location / {
+I, [2019-05-29T10:00:28.332219 #24475]  INFO -- default-ubuntu-1604:     +		proxy_pass http://backend;
+I, [2019-05-29T10:00:28.332864 #24475]  INFO -- default-ubuntu-1604:     +		# First attempt to serve request as file, then
+I, [2019-05-29T10:00:28.332951 #24475]  INFO -- default-ubuntu-1604:     +		# as directory, then fall back to displaying a 404.
+I, [2019-05-29T10:00:28.333162 #24475]  INFO -- default-ubuntu-1604:     +		try_files $uri $uri/ =404;
+I, [2019-05-29T10:00:28.333223 #24475]  INFO -- default-ubuntu-1604:     +	}
+I, [2019-05-29T10:00:28.333411 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.333555 #24475]  INFO -- default-ubuntu-1604:     +	# pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+I, [2019-05-29T10:00:28.333589 #24475]  INFO -- default-ubuntu-1604:     +	#
+I, [2019-05-29T10:00:28.333762 #24475]  INFO -- default-ubuntu-1604:     +	#location ~ \.php$ {
+I, [2019-05-29T10:00:28.333796 #24475]  INFO -- default-ubuntu-1604:     +	#	include snippets/fastcgi-php.conf;
+I, [2019-05-29T10:00:28.334072 #24475]  INFO -- default-ubuntu-1604:     +	#
+I, [2019-05-29T10:00:28.334136 #24475]  INFO -- default-ubuntu-1604:     +	#	# With php7.0-cgi alone:
+I, [2019-05-29T10:00:28.334176 #24475]  INFO -- default-ubuntu-1604:     +	#	fastcgi_pass 127.0.0.1:9000;
+I, [2019-05-29T10:00:28.334211 #24475]  INFO -- default-ubuntu-1604:     +	#	# With php7.0-fpm:
+I, [2019-05-29T10:00:28.334249 #24475]  INFO -- default-ubuntu-1604:     +	#	fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+I, [2019-05-29T10:00:28.334627 #24475]  INFO -- default-ubuntu-1604:     +	#}
+I, [2019-05-29T10:00:28.334701 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.334756 #24475]  INFO -- default-ubuntu-1604:     +	# deny access to .htaccess files, if Apache's document root
+I, [2019-05-29T10:00:28.334834 #24475]  INFO -- default-ubuntu-1604:     +	# concurs with nginx's one
+I, [2019-05-29T10:00:28.334864 #24475]  INFO -- default-ubuntu-1604:     +	#
+I, [2019-05-29T10:00:28.335242 #24475]  INFO -- default-ubuntu-1604:     +	#location ~ /\.ht {
+I, [2019-05-29T10:00:28.335321 #24475]  INFO -- default-ubuntu-1604:     +	#	deny all;
+I, [2019-05-29T10:00:28.335365 #24475]  INFO -- default-ubuntu-1604:     +	#}
+I, [2019-05-29T10:00:28.335734 #24475]  INFO -- default-ubuntu-1604:     +}
+I, [2019-05-29T10:00:28.335809 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.335851 #24475]  INFO -- default-ubuntu-1604:     +
+I, [2019-05-29T10:00:28.335887 #24475]  INFO -- default-ubuntu-1604:     +# Virtual Host configuration for example.com
+I, [2019-05-29T10:00:28.335921 #24475]  INFO -- default-ubuntu-1604:     +#
+I, [2019-05-29T10:00:28.335957 #24475]  INFO -- default-ubuntu-1604:     +# You can move that to a different file under sites-available/ and symlink that
+I, [2019-05-29T10:00:28.336384 #24475]  INFO -- default-ubuntu-1604:     +# to sites-enabled/ to enable it.
+I, [2019-05-29T10:00:28.336613 #24475]  INFO -- default-ubuntu-1604:     +#
+I, [2019-05-29T10:00:28.336903 #24475]  INFO -- default-ubuntu-1604:     +#server {
+I, [2019-05-29T10:00:28.337166 #24475]  INFO -- default-ubuntu-1604:     +#	listen 80;
+I, [2019-05-29T10:00:28.337450 #24475]  INFO -- default-ubuntu-1604:     +#	listen [::]:80;
+I, [2019-05-29T10:00:28.337518 #24475]  INFO -- default-ubuntu-1604:     +#
+I, [2019-05-29T10:00:28.337560 #24475]  INFO -- default-ubuntu-1604:     +#	server_name example.com;
+I, [2019-05-29T10:00:28.337598 #24475]  INFO -- default-ubuntu-1604:     +#
+I, [2019-05-29T10:00:28.337634 #24475]  INFO -- default-ubuntu-1604:     +#	root /var/www/example.com;
+I, [2019-05-29T10:00:28.337668 #24475]  INFO -- default-ubuntu-1604:     +#	index index.html;
+I, [2019-05-29T10:00:28.337920 #24475]  INFO -- default-ubuntu-1604:     +#
+I, [2019-05-29T10:00:28.337970 #24475]  INFO -- default-ubuntu-1604:     +#	location / {
+I, [2019-05-29T10:00:28.338141 #24475]  INFO -- default-ubuntu-1604:     +#		try_files $uri $uri/ =404;
+I, [2019-05-29T10:00:28.338185 #24475]  INFO -- default-ubuntu-1604:     +#	}
+I, [2019-05-29T10:00:28.338343 #24475]  INFO -- default-ubuntu-1604:     +#}
+I, [2019-05-29T10:00:28.338728 #24475]  INFO -- default-ubuntu-1604:   * link[/etc/nginx/sites-enabled/proxy.conf] action create[2019-05-29T09:00:28+00:00] INFO: Processing link[/etc/nginx/sites-enabled/proxy.conf] action create (node::default line 24)
+I, [2019-05-29T10:00:28.339105 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:28+00:00] INFO: link[/etc/nginx/sites-enabled/proxy.conf] created
+I, [2019-05-29T10:00:28.339548 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:28.339983 #24475]  INFO -- default-ubuntu-1604:     - create symlink at /etc/nginx/sites-enabled/proxy.conf to /etc/nginx/sites-available/proxy.conf
+I, [2019-05-29T10:00:28.340075 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:28+00:00] INFO: link[/etc/nginx/sites-enabled/proxy.conf] not queuing delayed action restart on service[nginx] (delayed), as it's already been queued
+I, [2019-05-29T10:00:28.340675 #24475]  INFO -- default-ubuntu-1604:   * link[/etc/nginx/sites-enabled/default] action delete[2019-05-29T09:00:28+00:00] INFO: Processing link[/etc/nginx/sites-enabled/default] action delete (node::default line 29)
+I, [2019-05-29T10:00:28.341291 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:28+00:00] INFO: link[/etc/nginx/sites-enabled/default] deleted
+I, [2019-05-29T10:00:28.341615 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:28.341806 #24475]  INFO -- default-ubuntu-1604:     - delete link to file at /etc/nginx/sites-enabled/default
+I, [2019-05-29T10:00:28.342020 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:28+00:00] INFO: link[/etc/nginx/sites-enabled/default] not queuing delayed action restart on service[nginx] (delayed), as it's already been queued
+I, [2019-05-29T10:00:28.342253 #24475]  INFO -- default-ubuntu-1604: Recipe: nodejs::repo
+I, [2019-05-29T10:00:28.342791 #24475]  INFO -- default-ubuntu-1604:   * apt_package[nodejs-apt-transport-https] action install[2019-05-29T09:00:28+00:00] INFO: Processing apt_package[nodejs-apt-transport-https] action install (nodejs::repo line 3)
+I, [2019-05-29T10:00:28.412355 #24475]  INFO -- default-ubuntu-1604:  (up to date)
+I, [2019-05-29T10:00:28.412999 #24475]  INFO -- default-ubuntu-1604:   * apt_repository[node.js] action add[2019-05-29T09:00:28+00:00] INFO: Processing apt_repository[node.js] action add (nodejs::repo line 7)
+I, [2019-05-29T10:00:28.571285 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:28.572239 #24475]  INFO -- default-ubuntu-1604:     * execute[install-key 1655a0ab68576280] action run[2019-05-29T09:00:28+00:00] INFO: Processing execute[install-key 1655a0ab68576280] action run (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_repository.rb line 251)
+I, [2019-05-29T10:00:28.848300 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:28.848377 #24475]  INFO -- default-ubuntu-1604:       [execute] Executing: /tmp/tmp.YyCiTwBIOs/gpg.1.sh --no-tty
+I, [2019-05-29T10:00:28.849076 #24475]  INFO -- default-ubuntu-1604:          --recv
+I, [2019-05-29T10:00:28.849149 #24475]  INFO -- default-ubuntu-1604:          --keyserver
+I, [2019-05-29T10:00:28.849180 #24475]  INFO -- default-ubuntu-1604:          hkp://keyserver.ubuntu.com:80
+I, [2019-05-29T10:00:28.849208 #24475]  INFO -- default-ubuntu-1604:          1655a0ab68576280
+I, [2019-05-29T10:00:28.855487 #24475]  INFO -- default-ubuntu-1604:          gpg: requesting key 68576280 from hkp server keyserver.ubuntu.com
+I, [2019-05-29T10:00:28.914597 #24475]  INFO -- default-ubuntu-1604:          gpg: key 68576280: public key "NodeSource <gpg@nodesource.com>" imported
+I, [2019-05-29T10:00:28.915724 #24475]  INFO -- default-ubuntu-1604:          gpg: Total number processed: 1
+I, [2019-05-29T10:00:28.917876 #24475]  INFO -- default-ubuntu-1604:          gpg:               imported: 1  (RSA: 1)
+I, [2019-05-29T10:00:29.008838 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:28+00:00] INFO: execute[install-key 1655a0ab68576280] ran successfully
+I, [2019-05-29T10:00:29.008967 #24475]  INFO -- default-ubuntu-1604:       - execute apt-key adv --no-tty --recv --keyserver hkp://keyserver.ubuntu.com:80 1655a0ab68576280
+I, [2019-05-29T10:00:29.010478 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:28+00:00] INFO: execute[install-key 1655a0ab68576280] sending run action to execute[apt-cache gencaches] (immediate)
+I, [2019-05-29T10:00:29.011885 #24475]  INFO -- default-ubuntu-1604:     * execute[apt-cache gencaches] action run[2019-05-29T09:00:28+00:00] INFO: Processing execute[apt-cache gencaches] action run (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_repository.rb line 51)
+I, [2019-05-29T10:00:29.023134 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:29.046184 #24475]  INFO -- default-ubuntu-1604:       [execute] Reading package lists...
+I, [2019-05-29T10:00:29.069383 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:28+00:00] INFO: execute[apt-cache gencaches] ran successfully
+I, [2019-05-29T10:00:29.071199 #24475]  INFO -- default-ubuntu-1604:       - execute ["apt-cache", "gencaches"]
+I, [2019-05-29T10:00:29.072335 #24475]  INFO -- default-ubuntu-1604:     * execute[apt-cache gencaches] action nothing[2019-05-29T09:00:28+00:00] INFO: Processing execute[apt-cache gencaches] action nothing (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_repository.rb line 51)
+I, [2019-05-29T10:00:29.073005 #24475]  INFO -- default-ubuntu-1604:  (skipped due to action :nothing)
+I, [2019-05-29T10:00:29.074705 #24475]  INFO -- default-ubuntu-1604:     * apt_update[node.js] action nothing[2019-05-29T09:00:29+00:00] INFO: Processing apt_update[node.js] action nothing (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_repository.rb line 58)
+I, [2019-05-29T10:00:29.075578 #24475]  INFO -- default-ubuntu-1604:  (skipped due to action :nothing)
+I, [2019-05-29T10:00:29.076525 #24475]  INFO -- default-ubuntu-1604:     * file[/etc/apt/sources.list.d/node.js.list] action create[2019-05-29T09:00:29+00:00] INFO: Processing file[/etc/apt/sources.list.d/node.js.list] action create (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_repository.rb line 74)
+I, [2019-05-29T10:00:29.079309 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:29+00:00] INFO: file[/etc/apt/sources.list.d/node.js.list] created file /etc/apt/sources.list.d/node.js.list
+I, [2019-05-29T10:00:29.079676 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:29.082425 #24475]  INFO -- default-ubuntu-1604:       - create new file /etc/apt/sources.list.d/node.js.list[2019-05-29T09:00:29+00:00] INFO: file[/etc/apt/sources.list.d/node.js.list] updated file contents /etc/apt/sources.list.d/node.js.list
+I, [2019-05-29T10:00:29.083242 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:29.084270 #24475]  INFO -- default-ubuntu-1604:       - update content in file /etc/apt/sources.list.d/node.js.list from none to d37af6
+I, [2019-05-29T10:00:29.085844 #24475]  INFO -- default-ubuntu-1604:       --- /etc/apt/sources.list.d/node.js.list	2019-05-29 09:00:28.997837441 +0000
+I, [2019-05-29T10:00:29.087279 #24475]  INFO -- default-ubuntu-1604:       +++ /etc/apt/sources.list.d/.chef-node20190529-1511-l4mc8q.js.list	2019-05-29 09:00:28.997837441 +0000
+I, [2019-05-29T10:00:29.087353 #24475]  INFO -- default-ubuntu-1604:       @@ -1 +1,2 @@
+I, [2019-05-29T10:00:29.088648 #24475]  INFO -- default-ubuntu-1604:       +deb      "https://deb.nodesource.com/node_8.x" xenial main[2019-05-29T09:00:29+00:00] INFO: file[/etc/apt/sources.list.d/node.js.list] owner changed to 0
+I, [2019-05-29T10:00:29.090025 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:29+00:00] INFO: file[/etc/apt/sources.list.d/node.js.list] group changed to 0
+I, [2019-05-29T10:00:29.091310 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:29+00:00] INFO: file[/etc/apt/sources.list.d/node.js.list] mode changed to 644
+I, [2019-05-29T10:00:29.091789 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:29.093069 #24475]  INFO -- default-ubuntu-1604:       - change mode from '' to '0644'
+I, [2019-05-29T10:00:29.095074 #24475]  INFO -- default-ubuntu-1604:       - change owner from '' to 'root'
+I, [2019-05-29T10:00:29.096000 #24475]  INFO -- default-ubuntu-1604:       - change group from '' to 'root'
+I, [2019-05-29T10:00:29.096741 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:29+00:00] INFO: file[/etc/apt/sources.list.d/node.js.list] sending run action to execute[apt-cache gencaches] (immediate)
+I, [2019-05-29T10:00:29.098837 #24475]  INFO -- default-ubuntu-1604:     * execute[apt-cache gencaches] action run[2019-05-29T09:00:29+00:00] INFO: Processing execute[apt-cache gencaches] action run (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_repository.rb line 51)
+I, [2019-05-29T10:00:29.109571 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:30.389026 #24475]  INFO -- default-ubuntu-1604:       [execute] Reading package lists...
+I, [2019-05-29T10:00:30.473191 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:30+00:00] INFO: execute[apt-cache gencaches] ran successfully
+I, [2019-05-29T10:00:30.473833 #24475]  INFO -- default-ubuntu-1604:       - execute ["apt-cache", "gencaches"]
+I, [2019-05-29T10:00:30.474507 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:30+00:00] INFO: file[/etc/apt/sources.list.d/node.js.list] sending update action to apt_update[node.js] (immediate)
+I, [2019-05-29T10:00:30.476541 #24475]  INFO -- default-ubuntu-1604:     * apt_update[node.js] action update[2019-05-29T09:00:30+00:00] INFO: Processing apt_update[node.js] action update (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_repository.rb line 58)
+I, [2019-05-29T10:00:30.483618 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:30.484106 #24475]  INFO -- default-ubuntu-1604:       - force update new lists of packages
+I, [2019-05-29T10:00:30.485319 #24475]  INFO -- default-ubuntu-1604:       * directory[/var/lib/apt/periodic] action create[2019-05-29T09:00:30+00:00] INFO: Processing directory[/var/lib/apt/periodic] action create (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_update.rb line 60)
+I, [2019-05-29T10:00:30.490147 #24475]  INFO -- default-ubuntu-1604:  (up to date)
+I, [2019-05-29T10:00:30.491036 #24475]  INFO -- default-ubuntu-1604:       * directory[/etc/apt/apt.conf.d] action create[2019-05-29T09:00:30+00:00] INFO: Processing directory[/etc/apt/apt.conf.d] action create (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_update.rb line 60)
+I, [2019-05-29T10:00:30.497931 #24475]  INFO -- default-ubuntu-1604:  (up to date)
+I, [2019-05-29T10:00:30.499182 #24475]  INFO -- default-ubuntu-1604:       * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing[2019-05-29T09:00:30+00:00] INFO: Processing file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_update.rb line 65)
+I, [2019-05-29T10:00:30.504762 #24475]  INFO -- default-ubuntu-1604:  (up to date)
+I, [2019-05-29T10:00:30.506365 #24475]  INFO -- default-ubuntu-1604:       * execute[apt-get -q update] action run[2019-05-29T09:00:30+00:00] INFO: Processing execute[apt-get -q update] action run (/opt/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.10.9/lib/chef/provider/apt_update.rb line 70)
+I, [2019-05-29T10:00:30.668753 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:30.669714 #24475]  INFO -- default-ubuntu-1604:  [execute] Hit:1 http://archive.ubuntu.com/ubuntu xenial InRelease
+I, [2019-05-29T10:00:30.669825 #24475]  INFO -- default-ubuntu-1604:            Hit:2 http://archive.ubuntu.com/ubuntu xenial-updates InRelease
+I, [2019-05-29T10:00:30.673565 #24475]  INFO -- default-ubuntu-1604:            Hit:3 http://archive.ubuntu.com/ubuntu xenial-backports InRelease
+I, [2019-05-29T10:00:30.849780 #24475]  INFO -- default-ubuntu-1604:            Hit:4 http://security.ubuntu.com/ubuntu xenial-security InRelease
+I, [2019-05-29T10:00:30.851781 #24475]  INFO -- default-ubuntu-1604:            Get:5 https://deb.nodesource.com/node_8.x xenial InRelease [4619 B]
+I, [2019-05-29T10:00:31.230624 #24475]  INFO -- default-ubuntu-1604:            Get:6 https://deb.nodesource.com/node_8.x xenial/main amd64 Packages [1005 B]
+I, [2019-05-29T10:00:31.554635 #24475]  INFO -- default-ubuntu-1604:            Fetched 5624 B in 0s (6493 B/s)
+I, [2019-05-29T10:00:32.729856 #24475]  INFO -- default-ubuntu-1604:            Reading package lists...
+I, [2019-05-29T10:00:32.780328 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:32+00:00] INFO: execute[apt-get -q update] ran successfully
+I, [2019-05-29T10:00:32.780441 #24475]  INFO -- default-ubuntu-1604:  - execute ["apt-get", "-q", "update"]
+I, [2019-05-29T10:00:32.781119 #24475]  INFO -- default-ubuntu-1604:     
+I, [2019-05-29T10:00:32.781471 #24475]  INFO -- default-ubuntu-1604:   
+I, [2019-05-29T10:00:32.781984 #24475]  INFO -- default-ubuntu-1604: Recipe: nodejs::nodejs_from_package
+I, [2019-05-29T10:00:32.783318 #24475]  INFO -- default-ubuntu-1604:   * apt_package[nodejs] action install[2019-05-29T09:00:32+00:00] INFO: Processing apt_package[nodejs] action install (nodejs::nodejs_from_package line 32)
+I, [2019-05-29T10:00:41.607756 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:00:41+00:00] INFO: apt_package[nodejs] installed nodejs at 8.16.0-1nodesource1
+I, [2019-05-29T10:00:41.607888 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:41.608448 #24475]  INFO -- default-ubuntu-1604:     - install version 8.16.0-1nodesource1 of package nodejs
+I, [2019-05-29T10:00:41.608620 #24475]  INFO -- default-ubuntu-1604: Recipe: node::default
+I, [2019-05-29T10:00:41.609396 #24475]  INFO -- default-ubuntu-1604:   * npm_package[pm2] action install[2019-05-29T09:00:41+00:00] INFO: Processing npm_package[pm2] action install (node::default line 36)
+I, [2019-05-29T10:00:41.612186 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:00:41.612645 #24475]  INFO -- default-ubuntu-1604:     * execute[install NPM package pm2] action run[2019-05-29T09:00:41+00:00] INFO: Processing execute[install NPM package pm2] action run (/tmp/kitchen/cache/cookbooks/nodejs/resources/npm_package.rb line 43)
+I, [2019-05-29T10:01:01.651093 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:01:01.651214 #24475]  INFO -- default-ubuntu-1604:       [execute] /usr/bin/pm2 -> /usr/lib/node_modules/pm2/bin/pm2
+I, [2019-05-29T10:01:01.651579 #24475]  INFO -- default-ubuntu-1604:          /usr/bin/pm2-dev -> /usr/lib/node_modules/pm2/bin/pm2-dev
+I, [2019-05-29T10:01:01.651673 #24475]  INFO -- default-ubuntu-1604:          /usr/bin/pm2-docker -> /usr/lib/node_modules/pm2/bin/pm2-docker
+I, [2019-05-29T10:01:01.652130 #24475]  INFO -- default-ubuntu-1604:          /usr/bin/pm2-runtime -> /usr/lib/node_modules/pm2/bin/pm2-runtime
+I, [2019-05-29T10:01:01.858051 #24475]  INFO -- default-ubuntu-1604:          npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules/pm2/node_modules/fsevents):
+I, [2019-05-29T10:01:01.860379 #24475]  INFO -- default-ubuntu-1604:          npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+I, [2019-05-29T10:01:01.861370 #24475]  INFO -- default-ubuntu-1604:          
+I, [2019-05-29T10:01:01.869445 #24475]  INFO -- default-ubuntu-1604:          + pm2@3.5.1
+I, [2019-05-29T10:01:01.869533 #24475]  INFO -- default-ubuntu-1604:          added 309 packages from 257 contributors in 18.064s
+I, [2019-05-29T10:01:01.905587 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:01:01+00:00] INFO: execute[install NPM package pm2] ran successfully
+I, [2019-05-29T10:01:01.906165 #24475]  INFO -- default-ubuntu-1604:       - execute npm install  -global pm2
+I, [2019-05-29T10:01:01.906621 #24475]  INFO -- default-ubuntu-1604:   
+I, [2019-05-29T10:01:01.907042 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:01:01+00:00] INFO: template[/etc/nginx/sites-available/proxy.conf] sending restart action to service[nginx] (delayed)
+I, [2019-05-29T10:01:01.907804 #24475]  INFO -- default-ubuntu-1604:   * service[nginx] action restart[2019-05-29T09:01:01+00:00] INFO: Processing service[nginx] action restart (node::default line 13)
+I, [2019-05-29T10:01:02.233313 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:01:02+00:00] INFO: service[nginx] restarted
+I, [2019-05-29T10:01:02.233408 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:01:02.233738 #24475]  INFO -- default-ubuntu-1604:     - restart service service[nginx]
+I, [2019-05-29T10:01:02.283793 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:01:02+00:00] INFO: Chef Run complete in 65.596952186 seconds
+I, [2019-05-29T10:01:02.299461 #24475]  INFO -- default-ubuntu-1604: 
+I, [2019-05-29T10:01:02.300479 #24475]  INFO -- default-ubuntu-1604: Running handlers:
+I, [2019-05-29T10:01:02.301019 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:01:02+00:00] INFO: Running report handlers
+I, [2019-05-29T10:01:02.301088 #24475]  INFO -- default-ubuntu-1604: Running handlers complete
+I, [2019-05-29T10:01:02.301114 #24475]  INFO -- default-ubuntu-1604: [2019-05-29T09:01:02+00:00] INFO: Report handlers complete
+I, [2019-05-29T10:01:02.301363 #24475]  INFO -- default-ubuntu-1604: Chef Client finished, 17/28 resources updated in 01 minutes 08 seconds
+I, [2019-05-29T10:01:02.336653 #24475]  INFO -- default-ubuntu-1604: Downloading files from <default-ubuntu-1604>
+I, [2019-05-29T10:01:02.359835 #24475]  INFO -- default-ubuntu-1604: Finished converging <default-ubuntu-1604> (1m29.88s).
+I, [2019-05-29T10:01:02.359999 #24475]  INFO -- default-ubuntu-1604: -----> Setting up <default-ubuntu-1604>...
+I, [2019-05-29T10:01:02.362595 #24475]  INFO -- default-ubuntu-1604: Finished setting up <default-ubuntu-1604> (0m0.00s).
+I, [2019-05-29T10:01:02.362756 #24475]  INFO -- default-ubuntu-1604: -----> Verifying <default-ubuntu-1604>...
+I, [2019-05-29T10:01:03.167479 #24475]  INFO -- default-ubuntu-1604: Loaded tests from {:path=>".Users.tech-a24.Documents.engineering-29.10-week.2day.chef_ci.test.integration.default"} 
+I, [2019-05-29T10:01:06.985456 #24475]  INFO -- default-ubuntu-1604: Finished verifying <default-ubuntu-1604> (0m4.62s).
+I, [2019-05-29T10:01:06.987698 #24475]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
+I, [2019-05-29T10:01:11.316833 #24475]  INFO -- default-ubuntu-1604: ==> default: Forcing shutdown of VM...
+I, [2019-05-29T10:01:12.738528 #24475]  INFO -- default-ubuntu-1604: ==> default: Destroying VM and associated drives...
+I, [2019-05-29T10:01:13.102089 #24475]  INFO -- default-ubuntu-1604: ==> default: [vagrant-hostsupdater] Removing hosts
+I, [2019-05-29T10:01:13.156124 #24475]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> destroyed.
+I, [2019-05-29T10:01:13.157707 #24475]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m6.17s).
+I, [2019-05-29T10:01:13.159709 #24475]  INFO -- default-ubuntu-1604: Finished testing <default-ubuntu-1604> (1m52.27s).
