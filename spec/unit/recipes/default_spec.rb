@@ -7,11 +7,11 @@
 require 'spec_helper'
 
 describe 'node::default' do
-  context 'When all attributes are default, on Ubuntu 16.04' do
+  context 'When all attributes are default, on Ubuntu 18.04' do
     let(:chef_run) do
       # for a complete list of available platforms and versions see:
       # https://github.com/customink/fauxhai/blob/master/PLATFORMS.md
-      runner = ChefSpec::SoloRunner.new(platform: 'ubuntu', version: '16.04')
+      runner = ChefSpec::SoloRunner.new(platform: 'ubuntu', version: '18.04')
       runner.converge(described_recipe)
     end
 
@@ -44,7 +44,7 @@ describe 'node::default' do
     end
 
     it 'should delete the symlink from the default config in sites-enabled' do
-      expect(chef_run).to delete_link "/etc/nginx/sites-enabled/default" 
+      expect(chef_run).to delete_link "/etc/nginx/sites-enabled/default"
     end
 
     it "should install nodejs from a recipe" do
